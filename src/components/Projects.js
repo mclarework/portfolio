@@ -3,10 +3,14 @@ import Example from "./Example"
 import "../style/Projects.css"
 
 const Projects = (props) => {
-    console.log(props.examples[0].title)
     return (
         <div className = "projects">
-            <Example examples={props.examples}/>
+            <h3 className = "header">Some examples of my work</h3>
+            <div className = "examples">
+            {props.examples.map((example,index) => {
+                return <Example key={index} title={example.title} image={example.image} url={example.url}/>
+            })}
+            </div>
         </div>
     )
 }

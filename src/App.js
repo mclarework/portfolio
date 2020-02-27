@@ -13,22 +13,22 @@ class App extends Component {
     examples: [
       {
         title: "Pokémon Stat Finder",
-        image: null,
+        image: "../images/Pokemon.png",
         url: "https://mclarework.github.io/poke-react-challenge/"
       },
       {
         title: "D&D Beyond visual clone",
-        image: null,
+        image: "../images/Pokemon.png",
         url: "https://mclarework.github.io/dndbeyondWebClone/"
       },
       {
         title: "Hangman",
-        image: null,
+        image: "../images/Pokemon.png",
         url: "https://mclarework.github.io/hangman/"
       },
       {
         title: "Dice Game",
-        image: null,
+        image: "../images/Pokemon.png",
         url: "https://mclarework.github.io/diceGame/"
       }
     ]

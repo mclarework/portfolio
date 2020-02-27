@@ -1,18 +1,18 @@
 import React from "react"
+import Poke from "../images/Pokemon.png"
 import "../style/Example.css"
 
 const Example = (props) => {
-    console.log(props.examples[0].title)
     return (
         <div className = "example">
             <div className = "title">
-                <h3>{props.examples[0].title}</h3>
+                <h3>{props.title}</h3>
             </div>
             <div className = "image">
-
+                <img src = {Poke} alt="" height="300px" width="380px"/>
             </div>
             <div className = "gitLink">
-            <a href={props.examples[0].url}>{props.examples[0].url}</a>
+            <a href={props.url}>{props.url}</a>
             </div>
         </div>
     )

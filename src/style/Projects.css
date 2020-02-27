@@ -1,8 +1,25 @@
 .projects {
     display: flex;
-    height: 60%;
+    height: fit-content;
     width: 90%;
     color: gold;
     font-size: xx-large;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.examples {
+    display: flex;
+    height: 95%;
+    width: 100%;
+    color: gold;
+    font-size: xx-large;
+    flex-wrap: wrap;
 }
