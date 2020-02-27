@@ -1,0 +1,7 @@
+.botBar {
+    display: flex;
+    height: 20%;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+}
