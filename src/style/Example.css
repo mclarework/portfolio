@@ -1,36 +1,36 @@
 .example {
-    display: flex;
-    height: 500px;
-    width: 400px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  height: 500px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .title {
-    height: 15%;
-    width: fit-content;
-    font-size: initial;
+  height: 15%;
+  width: fit-content;
+  font-size: initial;
 }
 
 .image {
-    display: flex;
-    height:60%;
-    width: 400px;
-    margin: 5% 0%;
-    justify-content: center;
+  display: flex;
+  height: 40%;
+  width: 400px;
+  margin: 5% 0%;
+  justify-content: center;
 }
 
 .gitLink {
-    height: 15%;
-    width: fit-content;
-    font-size: initial;
+  height: 15%;
+  width: fit-content;
+  font-size: initial;
 }
 
 a {
-    color: gold
+  color: gold;
 }
 
 a:hover {
-    color: white
+  color: white;
 }

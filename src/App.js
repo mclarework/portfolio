@@ -6,6 +6,10 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Bot from "./components/Bot";
+import Poke from "./images/Pokemon.png";
+import Clone from "./images/Webclone.png";
+import HangmanP from "./images/HangmanP.png";
+import Dice from "./images/DiceGame.png";
 import "./style/App.css";
 
 class App extends Component {
@@ -13,22 +17,22 @@ class App extends Component {
     examples: [
       {
         title: "Pokémon Stat Finder",
-        image: "../images/Pokemon.png",
+        image: Poke,
         url: "https://mclarework.github.io/poke-react-challenge/"
       },
       {
         title: "D&D Beyond visual clone",
-        image: "../images/Pokemon.png",
+        image: Clone,
         url: "https://mclarework.github.io/dndbeyondWebClone/"
       },
       {
         title: "Hangman",
-        image: "../images/Pokemon.png",
-        url: "https://mclarework.github.io/hangman/"
+        image: HangmanP,
+        url: "https://mclarework.github.io/hangmanP/"
       },
       {
         title: "Dice Game",
-        image: "../images/Pokemon.png",
+        image: Dice,
         url: "https://mclarework.github.io/diceGame/"
       }
     ]
@@ -40,7 +44,10 @@ class App extends Component {
           <Nav />
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/projects" render={()=> (<Projects examples={this.state.examples}/> )} />
+          <Route
+            path="/projects"
+            render={() => <Projects examples={this.state.examples} />}
+          />
           <Route path="/contact" component={Contact} />
           <Bot />
         </div>

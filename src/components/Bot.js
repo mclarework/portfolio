@@ -1,12 +1,8 @@
-import React from "react"
-import "../style/Bot.css"
+import React from "react";
+import "../style/Bot.css";
 
 const Bot = () => {
-    return (
-        <div className = "botBar">
-            MC-2020
-        </div>
-    )
-}
+  return <div className="botBar">MC-2020</div>;
+};
 
-export default Bot
+export default Bot;
