@@ -17,10 +17,16 @@
 
 .examples {
   display: flex;
-  height: 95%;
+  height: fit-content;
   width: 100%;
   color: gold;
   justify-content: center;
   font-size: xx-large;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    font-size: smaller;
+  }
 }

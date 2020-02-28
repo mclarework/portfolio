@@ -3,6 +3,7 @@
   height: fit-content;
   height: 80vh;
   width: 90%;
+  margin:10px 10px 0px 10px;
   color: gold;
   font-size: xx-large;
   justify-content: center;
@@ -19,7 +20,7 @@
 
 .listItem {
   width: 60%;
-  margin: 20px;
+  margin: 10px 10px 10px 20px;
 }
 
 .textContact {
@@ -28,6 +29,11 @@
 
 @media only screen and (max-width: 600px) {
   .contact {
-    font-size: small;
+    font-size: 16px;
+  }
+  
+  .textContactHead {
+    margin: 0px;
+    font-size: 20px;
   }
 }

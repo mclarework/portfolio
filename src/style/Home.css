@@ -12,8 +12,9 @@
 ul {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: 20px;
+  flex-wrap: wrap;
 }
 
 li {
@@ -30,6 +31,7 @@ li {
 .subheading {
   display: flex;
   height: 33%;
+  width: 90;
   justify-content: center;
   align-items: center;
 }
@@ -40,4 +42,19 @@ li {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  li{
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .heading{
+    font-size: 50px;
+  }
+
+  .subheading{
+    font-size: 20px;
+  }
 }
