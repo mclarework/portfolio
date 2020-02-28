@@ -13,7 +13,6 @@ const Nav = () => {
         </li>
         <li>
           <Link className="linkTag" to="/about">
-            {" "}
             About
           </Link>
         </li>

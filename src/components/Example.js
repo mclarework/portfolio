@@ -7,11 +7,11 @@ const Example = props => {
       <div className="title">
         <h3>{props.title}</h3>
       </div>
-      <div>
+      <div className = "info">
         <p>{props.text}</p>
       </div>
       <div className="image">
-        <img src={props.image} alt="" height="200px" width="380px" />
+        <img src={props.image} alt="" height="200px" width="300px" />
       </div>
       <div className="gitLink">
         <a href={props.url}>{props.url}</a>

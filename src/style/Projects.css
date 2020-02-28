@@ -20,6 +20,7 @@
   height: 95%;
   width: 100%;
   color: gold;
+  justify-content: center;
   font-size: xx-large;
   flex-wrap: wrap;
 }

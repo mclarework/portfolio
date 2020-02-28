@@ -18,21 +18,29 @@ class App extends Component {
       {
         title: "Pokémon Stat Finder",
         image: Poke,
+        text:
+          "A small web app that takes data from a Pokémon API and allows you to search for Pokémon stats. Includes an autocomplete feature and arrow scrolling.",
         url: "https://mclarework.github.io/poke-react-challenge/"
       },
       {
         title: "D&D Beyond visual clone",
         image: Clone,
+        text:
+          "A visual clone of the D&D Beyond website. This was early practise at using CSS and Flexbox to organise webpage layouts.",
         url: "https://mclarework.github.io/dndbeyondWebClone/"
       },
       {
         title: "Hangman",
         image: HangmanP,
+        text:
+          "I made a simple Hangman game, but in Polish for one of my friends who is Polish.",
         url: "https://mclarework.github.io/hangmanP/"
       },
       {
         title: "Dice Game",
         image: Dice,
+        text:
+          "A basic dice game. If your rolls total 21 before you roll a natural 1 then you win the game.",
         url: "https://mclarework.github.io/diceGame/"
       }
     ]

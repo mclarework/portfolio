@@ -1,7 +1,11 @@
 .botBar {
   display: flex;
-  height: 20%;
+  height: 10vh;
   width: 90%;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+
+.made {
+  color: gold;
 }
