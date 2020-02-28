@@ -28,6 +28,14 @@
   flex-direction: column;
 }
 
+a {
+  color: gold
+}
+
+a:hover {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .right {
     font-size: x-small;
