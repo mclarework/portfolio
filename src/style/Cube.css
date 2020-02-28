@@ -51,6 +51,12 @@ Body {
   transform: rotate(0deg) rotateX(-50deg) rotateY(45deg) rotateZ(0deg) translateZ(100px);
 }
 
+#git_face {
+  transform: rotate(45deg);
+  font-size: x-large;
+  color: red;
+}
+
 .two {
   transform: rotate(0deg) rotateX(-50deg) rotateY(135deg) rotateZ(0deg) translateZ(100px);
 }
@@ -75,6 +81,12 @@ Body {
   transform: rotate(0deg) rotateX(-50deg) rotateY(-45deg) rotateZ(0deg) translateZ(100px);
 }
 
+#React_face {
+  transform: rotate(-45deg);
+  font-size: x-large;
+  color: red;
+}
+
 .five {
   transform:  rotate(0deg) rotateX(40deg) rotateY(0deg) rotateZ(-45deg) translateZ(100px);
 }
@@ -87,4 +99,10 @@ Body {
 
 .six {
   transform: rotate(0deg) rotateX(-140deg) rotateY(0deg) rotateZ(225deg) translateZ(100px);
+}
+
+#Node_face{
+  transform: rotate(-45deg);
+  font-size: x-large;
+  color: red;
 }
