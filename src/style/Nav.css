@@ -20,8 +20,9 @@ ul {
   height: fit-content;
   margin-right: 20px;
   width: 80%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .linkTag {
