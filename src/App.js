@@ -10,6 +10,7 @@ import Poke from "./images/Pokemon.png";
 import Clone from "./images/Webclone.png";
 import HangmanP from "./images/HangmanP.png";
 import Dice from "./images/DiceGame.png";
+import Cube from "./components/Cube"
 import "./style/App.css";
 
 class App extends Component {
@@ -50,6 +51,7 @@ class App extends Component {
       <Router basename="/">
         <div className="App">
           <Nav />
+          <Cube/>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route
